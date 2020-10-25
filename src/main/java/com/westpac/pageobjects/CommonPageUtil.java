@@ -1,25 +1,24 @@
 package com.westpac.pageobjects;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import com.westpac.core.DriverFactory;
+import org.apache.log4j.Logger;
 
-public class CommonPageUtil extends DriverFactory {
+import static com.westpac.core.DriverFactory.getDriver;
+
+public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends LoadableComponent<T> {
+    Logger log = Logger.getLogger(CommonPageUtil.class);
 
     private static final int TIMEOUT = 5;
-    public static final Logger LOGGER = LoggerFactory.getLogger(CommonPageUtil.class);
 
     public CommonPageUtil() {
-        super(driver);
-        PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
+        PageFactory.initElements(new AjaxElementLocatorFactory(getDriver(), TIMEOUT), this);
     }
 
     /**
@@ -28,28 +27,39 @@ public class CommonPageUtil extends DriverFactory {
     public void waitForPageLoad() {
         try {
             ExpectedCondition<Boolean> pageLoadCondition = driver1 -> ((JavascriptExecutor) driver1).executeScript("return document.readyState").equals("complete");
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(getDriver(), 10);
             wait.until(pageLoadCondition);
         } catch (WebDriverException | NullPointerException e) {
-            LOGGER.info("Exception occurred on wait for page load");
+            log.info("Exception occurred on wait for page load");
         }
     }
 
     public void waitForElementToBeClickable(WebElement element) {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(getDriver(), 10);
             wait.until(ExpectedConditions.elementToBeClickable(element));
         } catch (WebDriverException e) {
-            LOGGER.info("Exception occurred on wait for element to be clickable");
+            log.info("Exception occurred on wait for element to be clickable");
         }
+    }
+
+    public void waitForFrameToBeAvailableAndSwitchToIt(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
     }
 
     public void waitForExpectedElement(WebElement element) {
         try {
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(getDriver(), 10);
             wait.until(ExpectedConditions.visibilityOf(element));
         } catch (WebDriverException e) {
-            LOGGER.info("Exception occurred on wait for expected element");
+            log.info("Exception occurred on wait for expected element");
         }
     }
+
+    public void hoverToElement(WebElement element) {
+        Actions hover = new Actions(getDriver());
+        hover.moveToElement(element).build().perform();
+    }
+
 }

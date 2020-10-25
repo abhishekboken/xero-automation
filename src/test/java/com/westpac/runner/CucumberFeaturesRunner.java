@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         monochrome = true,
         plugin = {"pretty", "html:target/cucumber/cucumber.html", "json:target/cucumber/cucumber.json"},
-        features = "src/test/resources/features/kiwiSaverTestCases.feature",
+        features = "src/test/resources/features",
         glue = {"com.westpac.stepdefs"})
 public class CucumberFeaturesRunner {
 }
