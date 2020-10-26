@@ -5,7 +5,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.*;
+
 import org.apache.log4j.Logger;
+
 import static com.westpac.core.DriverFactory.getDriver;
 
 public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends LoadableComponent<T> {
@@ -30,6 +32,11 @@ public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends Loa
         }
     }
 
+    /**
+     * Waits for element to be clickable for a maximum of 10 seconds.
+     *
+     * @param element locator for expected WebElement
+     */
     public void waitForElementToBeClickable(WebElement element) {
         try {
             WebDriverWait wait = new WebDriverWait(getDriver(), 10);
@@ -39,11 +46,21 @@ public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends Loa
         }
     }
 
+    /**
+     * Waits for the iframe to appear and then switches to it with a maximum wait of 10 seconds.
+     *
+     * @param element locator for the expected iframe
+     */
     public void waitForFrameToBeAvailableAndSwitchToIt(WebElement element) {
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
     }
 
+    /**
+     * Waits for element to appear for a maximum of 10 seconds.
+     *
+     * @param element locator for expected WebElement
+     */
     public void waitForExpectedElement(WebElement element) {
         try {
             WebDriverWait wait = new WebDriverWait(getDriver(), 10);
@@ -53,6 +70,11 @@ public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends Loa
         }
     }
 
+    /**
+     * Hovers to a webElement.
+     *
+     * @param element WebElement to hover on
+     */
     public void hoverToElement(WebElement element) {
         Actions hover = new Actions(getDriver());
         hover.moveToElement(element).build().perform();

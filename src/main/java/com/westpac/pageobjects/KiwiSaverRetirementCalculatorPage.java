@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.apache.log4j.Logger;
 
-import java.util.stream.StreamSupport;
-
 import static com.westpac.core.DriverFactory.getDriver;
 import static org.junit.Assert.assertEquals;
 

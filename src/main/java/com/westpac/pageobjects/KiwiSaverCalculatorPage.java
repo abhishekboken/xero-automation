@@ -2,13 +2,11 @@ package com.westpac.pageobjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 import static com.westpac.core.DriverFactory.getDriver;
 import static org.junit.Assert.assertEquals;
 
 public class KiwiSaverCalculatorPage extends CommonPageUtil<KiwiSaverCalculatorPage> {
-
-    @FindBy(xpath = "//h1")
-    private WebElement heading;
 
     @FindBy(css = ".sw-page-content-bottom-row div section p:nth-child(6) a[href*='kiwisaver-calculator']")
     private WebElement clickToStartButton;
@@ -16,11 +14,6 @@ public class KiwiSaverCalculatorPage extends CommonPageUtil<KiwiSaverCalculatorP
     public void clickStartButton() {
         waitForElementToBeClickable(clickToStartButton);
         clickToStartButton.click();
-    }
-
-    public String getHeading() {
-        waitForExpectedElement(heading);
-        return heading.getText();
     }
 
     @Override

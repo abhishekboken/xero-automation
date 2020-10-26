@@ -5,6 +5,10 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import java.util.Date;
+
+
 import org.apache.log4j.Logger;
 
 import static com.westpac.core.DriverFactory.getDriver;
@@ -27,6 +31,8 @@ public class BrowserHooks {
                 final byte[] screenshot = ((TakesScreenshot) getDriver())
                         .getScreenshotAs(OutputType.BYTES);
                 scenario.attach(screenshot, "image/png", "TestFailure");
+                log.info("URL on test failure step: " + getDriver().getCurrentUrl());
+                log.info("Test failure screenshot timestamp: " + new Date(System.currentTimeMillis()));
             } catch (Exception e) {
                 e.printStackTrace();
             }
