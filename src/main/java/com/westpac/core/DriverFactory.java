@@ -13,9 +13,11 @@ public class DriverFactory {
     private static final int TIMEOUT = 10;
 
     public static void setup() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.manage().timeouts().pageLoadTimeout(TIMEOUT, TimeUnit.SECONDS);
+        if (driver==null) {
+            WebDriverManager.chromedriver().setup();
+            driver = new ChromeDriver();
+            driver.manage().timeouts().pageLoadTimeout(TIMEOUT, TimeUnit.SECONDS);
+        }
     }
 
     public static void teardown() {

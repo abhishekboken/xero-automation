@@ -19,6 +19,7 @@ public class KiwiSaverCalculatorPage extends CommonPageUtil<KiwiSaverCalculatorP
     }
 
     public String getHeading() {
+        waitForExpectedElement(heading);
         return heading.getText();
     }
 

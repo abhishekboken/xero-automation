@@ -5,23 +5,23 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import com.westpac.core.DriverFactory;
 import org.apache.log4j.Logger;
 
 import static com.westpac.core.DriverFactory.getDriver;
+import static com.westpac.core.DriverFactory.setup;
 
 public class BrowserHooks {
     Logger log = Logger.getLogger(BrowserHooks.class);
 
     @Before
     public void initialize() {
-        DriverFactory.setup();
+        setup();
         getDriver().manage().window().maximize();
         getDriver().manage().deleteAllCookies();
     }
 
     @After
-    public void afterScenario(Scenario scenario) {
+    public void takeScreenshotForFailedScenarioStep(Scenario scenario) {
         if (scenario.isFailed()) {
             try {
                 final byte[] screenshot = ((TakesScreenshot) getDriver())
@@ -31,8 +31,8 @@ public class BrowserHooks {
                 e.printStackTrace();
             }
         }
-        DriverFactory.teardown();
     }
+
 }
 
 
