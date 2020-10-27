@@ -19,7 +19,7 @@ OS: Windows 10
 
 **Setup**:
 
-Required: Java 8, IntelliJ, Maven, , Cucumber for Java plugin, Gherkin plugin.
+Required: Java 8, IntelliJ, Maven, Cucumber for Java plugin, Gherkin plugin.
 
 Go to New --> Project from version control --> enter Repository URL
 
