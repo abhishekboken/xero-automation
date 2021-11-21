@@ -1,4 +1,4 @@
-package com.westpac.pageobjects;
+package com.xero.pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -8,11 +8,17 @@ import org.openqa.selenium.support.ui.*;
 
 import org.apache.log4j.Logger;
 
-import static com.westpac.core.DriverFactory.getDriver;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import static com.xero.core.DriverFactory.getDriver;
 
 public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends LoadableComponent<T> {
-    Logger log = Logger.getLogger(CommonPageUtil.class);
 
+    Logger log = Logger.getLogger(CommonPageUtil.class);
     private static final int TIMEOUT = 5;
 
     public CommonPageUtil() {
@@ -71,13 +77,16 @@ public abstract class CommonPageUtil<T extends LoadableComponent<T>> extends Loa
     }
 
     /**
-     * Hovers to a webElement.
+     * Clicks on a WebElement using a javaScript event.
      *
-     * @param element WebElement to hover on
+     * @param element locator for an element to be clicked
      */
-    public void hoverToElement(WebElement element) {
-        Actions hover = new Actions(getDriver());
-        hover.moveToElement(element).build().perform();
+    public void clickByJavaScript(WebElement element) {
+        JavascriptExecutor executor = (JavascriptExecutor) getDriver();
+        executor.executeScript("arguments[0].click();", element);
     }
 
+    public WebElement getElementWithSpecifiedText(String text){
+        return getDriver().findElement(By.xpath("//*[normalize-space(text()) = '" + text + "']"));
+    }
 }

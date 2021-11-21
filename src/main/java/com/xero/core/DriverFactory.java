@@ -1,6 +1,7 @@
-package com.westpac.core;
+package com.xero.core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -22,6 +23,7 @@ public class DriverFactory {
         }
     }
 
+    @AfterClass
     public static void teardown() {
         driver.close();
         driver.quit();

@@ -1,0 +1,182 @@
+2021-11-21 03:15:55,475  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:15:55,493  INFO [main] WebDriverManager:1290 - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2021-11-21 03:15:56,049  INFO [main] Downloader:127 - Downloading https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_win32.zip
+2021-11-21 03:15:57,502  INFO [main] Downloader:188 - Extracting driver from compressed file chromedriver_win32.zip
+2021-11-21 03:15:57,584  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:16:02,095  INFO [main] BrowserHooks:36 - URL on test failure step: https://www.xero.com/nz/
+2021-11-21 03:16:02,096  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:16:02 IST 2021
+2021-11-21 03:22:14,453  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:22:14,467  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:23:10,136  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:23:10,148  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:23:18,801  INFO [main] BrowserHooks:36 - URL on test failure step: https://www.xero.com/nz/
+2021-11-21 03:23:18,802  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:23:18 IST 2021
+2021-11-21 03:23:47,651  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:23:47,663  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:23:56,421  INFO [main] BrowserHooks:36 - URL on test failure step: https://www.xero.com/nz/
+2021-11-21 03:23:56,422  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:23:56 IST 2021
+2021-11-21 03:28:13,309  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:28:13,322  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:28:24,157  INFO [main] BrowserHooks:36 - URL on test failure step: https://www.xero.com/nz/
+2021-11-21 03:28:24,157  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:28:24 IST 2021
+2021-11-21 03:30:13,811  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:30:13,825  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:30:17,956  INFO [main] BrowserHooks:36 - URL on test failure step: https://www.xero.com/nz/
+2021-11-21 03:30:17,957  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:30:17 IST 2021
+2021-11-21 03:38:49,719  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:38:49,733  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:38:55,547  INFO [main] BrowserHooks:36 - URL on test failure step: https://login.xero.com/identity/user/login/two-factor/authenticate?returnUrl=https%3A%2F%2Fgo.xero.com%2Fdashboard%2F
+2021-11-21 03:38:55,547  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:38:55 IST 2021
+2021-11-21 03:43:57,059  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:43:57,072  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:44:02,855  INFO [main] BrowserHooks:36 - URL on test failure step: https://login.xero.com/identity/user/login/two-factor/authenticate?returnUrl=https%3A%2F%2Fgo.xero.com%2Fdashboard%2F
+2021-11-21 03:44:02,855  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:44:02 IST 2021
+2021-11-21 03:45:26,059  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:45:26,070  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:45:31,511  INFO [main] BrowserHooks:36 - URL on test failure step: https://login.xero.com/identity/user/login/two-factor/authenticate?returnUrl=https%3A%2F%2Fgo.xero.com%2Fdashboard%2F
+2021-11-21 03:45:31,511  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:45:31 IST 2021
+2021-11-21 03:47:48,267  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:47:48,282  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:47:58,830  INFO [main] BrowserHooks:36 - URL on test failure step: https://login.xero.com/identity/user/login/two-factor/authenticate?returnUrl=https%3A%2F%2Fgo.xero.com%2Fdashboard%2F
+2021-11-21 03:47:58,832  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:47:58 IST 2021
+2021-11-21 03:50:18,007  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:50:18,019  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:52:54,649  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:52:54,668  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:54:36,393  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:54:36,404  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 03:54:43,128  INFO [main] BrowserHooks:36 - URL on test failure step: https://login.xero.com/identity/user/login/two-factor/authenticate?returnUrl=https%3A%2F%2Fgo.xero.com%2Fdashboard%2F
+2021-11-21 03:54:43,129  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 03:54:43 IST 2021
+2021-11-21 03:55:11,159  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 03:55:11,173  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:01:08,699  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 04:01:08,715  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:06:16,904  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 04:06:16,918  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:06:38,593  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 04:06:38,594  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 04:06:38 IST 2021
+2021-11-21 04:23:56,410  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 04:23:56,424  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:24:16,397  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 04:24:16,399  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 04:24:16 IST 2021
+2021-11-21 04:29:43,226  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 04:29:43,237  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:30:03,277  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 04:30:03,277  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 04:30:03 IST 2021
+2021-11-21 04:30:40,245  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 04:30:40,259  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 04:31:00,479  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 04:31:00,479  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 04:31:00 IST 2021
+2021-11-21 10:10:20,921  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 10:10:20,936  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 10:10:45,564  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 10:10:45,564  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 10:10:45 IST 2021
+2021-11-21 10:12:24,104  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 10:12:24,122  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 10:12:50,728  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 10:12:50,730  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 10:12:50 IST 2021
+2021-11-21 10:13:43,500  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 10:13:43,512  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 10:14:10,869  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 10:14:10,870  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 10:14:10 IST 2021
+2021-11-21 10:21:35,376  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 10:21:35,393  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:05:30,369  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:05:30,381  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:05:52,772  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 11:05:52,774  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:05:52 IST 2021
+2021-11-21 11:06:20,830  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:06:20,842  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:06:50,015  INFO [main] CommonPageUtil:51 - Exception occurred on wait for element to be clickable
+2021-11-21 11:06:55,464  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 11:06:55,465  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:06:55 IST 2021
+2021-11-21 11:07:51,517  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:07:51,531  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:08:17,513  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 11:08:17,515  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:08:17 IST 2021
+2021-11-21 11:10:39,176  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:10:39,190  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:11:26,220  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/download-form?accountId=&ref=newaccount
+2021-11-21 11:11:26,220  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:11:26 IST 2021
+2021-11-21 11:13:28,362  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:13:28,373  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:13:57,977  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:13:57,979  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:13:57 IST 2021
+2021-11-21 11:19:05,257  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:19:05,268  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:19:36,101  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Banking/Account/#add/direct/21aa230b-ad51-4756-949d-19028adbb0bd
+2021-11-21 11:19:36,103  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:19:36 IST 2021
+2021-11-21 11:20:40,738  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:20:40,751  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:21:14,163  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form
+2021-11-21 11:21:14,165  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:21:14 IST 2021
+2021-11-21 11:23:07,618  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:23:07,628  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:23:39,449  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:23:39,450  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:23:39 IST 2021
+2021-11-21 11:26:16,915  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:26:16,925  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:26:48,342  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:26:48,343  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:26:48 IST 2021
+2021-11-21 11:31:45,144  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:31:45,156  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:32:16,213  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:32:16,213  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:32:16 IST 2021
+2021-11-21 11:36:21,508  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:36:21,520  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:36:48,259  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:36:48,260  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:36:48 IST 2021
+2021-11-21 11:38:15,850  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:38:15,861  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:38:46,739  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:38:46,740  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:38:46 IST 2021
+2021-11-21 11:43:08,936  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:43:08,954  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:43:39,442  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:43:39,443  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:43:39 IST 2021
+2021-11-21 11:47:00,751  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:47:00,762  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:47:33,900  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:47:33,901  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:47:33 IST 2021
+2021-11-21 11:48:39,098  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:48:39,110  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:49:09,293  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:49:09,294  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:49:09 IST 2021
+2021-11-21 11:50:14,658  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:50:14,669  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:50:51,862  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:50:51,863  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:50:51 IST 2021
+2021-11-21 11:52:31,700  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:52:31,712  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:53:17,190  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:53:17,192  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:53:17 IST 2021
+2021-11-21 11:55:38,058  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:55:38,070  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:56:06,141  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:56:06,141  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:56:06 IST 2021
+2021-11-21 11:57:21,870  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:57:21,881  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:57:56,926  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 11:57:56,926  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:57:56 IST 2021
+2021-11-21 11:58:59,202  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 11:58:59,213  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 11:59:35,795  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 11:59:35,796  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 11:59:35 IST 2021
+2021-11-21 12:03:17,480  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 12:03:17,492  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 12:03:53,018  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 12:03:53,018  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 12:03:53 IST 2021
+2021-11-21 12:05:36,064  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 12:05:36,075  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 12:06:08,345  INFO [main] BrowserHooks:36 - URL on test failure step: https://bankaccounts.xero.com/!qs6m7/connect/21aa230b-ad51-4756-949d-19028adbb0bd/upload-form-later
+2021-11-21 12:06:08,347  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 12:06:08 IST 2021
+2021-11-21 12:07:02,139  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 12:07:02,150  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 12:07:37,213  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 12:07:37,214  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 12:07:37 IST 2021
+2021-11-21 12:09:22,497  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 12:09:22,508  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+2021-11-21 12:09:58,854  INFO [main] BrowserHooks:36 - URL on test failure step: https://go.xero.com/Bank/BankAccounts.aspx
+2021-11-21 12:09:58,855  INFO [main] BrowserHooks:37 - Test failure screenshot timestamp: Sun Nov 21 12:09:58 IST 2021
+2021-11-21 12:15:49,669  INFO [main] WebDriverManager:964 - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+2021-11-21 12:15:49,684  INFO [main] WebDriverManager:1019 - Exporting webdriver.chrome.driver as C:\Users\R K Tyagi\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe

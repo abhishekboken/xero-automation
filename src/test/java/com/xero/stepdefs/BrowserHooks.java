@@ -1,8 +1,10 @@
-package com.westpac.stepdefs;
+package com.xero.stepdefs;
 
+import com.xero.core.DataProvider;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import org.junit.AfterClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -11,8 +13,7 @@ import java.util.Date;
 
 import org.apache.log4j.Logger;
 
-import static com.westpac.core.DriverFactory.getDriver;
-import static com.westpac.core.DriverFactory.setup;
+import static com.xero.core.DriverFactory.*;
 
 public class BrowserHooks {
     Logger log = Logger.getLogger(BrowserHooks.class);
@@ -22,10 +23,11 @@ public class BrowserHooks {
         setup();
         getDriver().manage().window().maximize();
         getDriver().manage().deleteAllCookies();
+        DataProvider.initializePropertiesFile();
     }
 
     @After
-    public void takeScreenshotForFailedScenarioStep(Scenario scenario) {
+    public void takeScreenshotForFailedScenarioStepAndTearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             try {
                 final byte[] screenshot = ((TakesScreenshot) getDriver())
@@ -36,6 +38,9 @@ public class BrowserHooks {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            teardown();
+        } else {
+            teardown();
         }
     }
 

@@ -1,12 +1,7 @@
-# Test Automation Westpac
+# Xero Test Automation
 
-Web UI automation scenarios for Westpac KiwiSaver Retirement Calculator.
+Web UI automation scenarios for adding ANZ bank account details for an organization.
 
-As per the requirement,
-
-First feature file contains a scenario which will fail with assertion error and screenshot in the cucumber report.
-
-Second feature file contains three scenarios outlined considering the best practices.
 
 **Technology stack**: 
 
@@ -31,7 +26,7 @@ All the test BDD scenarios are present in feature files located in "features" fo
 
 **Execution**:
 
-Method 1: Tests can be executed once the project is imported into IntelliJ. Run the CucumberFeaturesRunner.java class present in com.westpac.runner package.
+Method 1: Tests can be executed once the project is imported into IntelliJ. Run the CucumberFeaturesRunner.java class present in com.xero.runner package.
 
 OR
 
